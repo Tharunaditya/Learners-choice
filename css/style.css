@@ -129,3 +129,27 @@ p {
     height: 4px;
   }
 }
+@media (min-width: 1024px)/*or anything else you what this to show/hide*/{
+        .respoonsive-on{
+        text-decoration: none;
+        display: block;
+    }
+    .respoonsive-off{
+        text-decoration: underline;
+        font-weight: bold;
+        display: none;
+    }
+
+}
+}
+@media (max-width: 1024px){
+            .respoonsive-on{
+        text-decoration: underline;
+        font-weight: bold;
+        display: none;
+    }
+        .respoonsive-off{
+        display: block;
+        font-weight: normal;
+    }
+}
